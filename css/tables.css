@@ -1,7 +1,5 @@
-body {
-    /*background-color: ghostwhite;*/
-    background-color: #aac9ff;
-    margin: 0;
+td {
+    vertical-align: top;
 }
 
 .row div {
@@ -9,11 +7,11 @@ body {
     float: left;
     width: 40px;
     height: 40px;
-    border-color: #3d3d3d;
-    border-style: solid;
-    border-width: 1px;
+    border: 1px solid #3d3d3d;
     padding: 1px;
+    font-size: 25px;
     background-color: #f9f9f9;
+    color: #3d3d3d;
     justify-content: center;
     align-items: center;
     transition: 100ms;
@@ -64,8 +62,7 @@ div.selected {
 }
 
 .shown {
-    font-weight: bold;
-    color: #b3d4fc;
+    box-shadow: inset 0 0 50px #E8E8E8;
 }
 
 

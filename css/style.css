@@ -1,4 +1,4 @@
 body {
     background-image: url(../images/sakura.jpg);
-    background-size: 100%;
+    background-size: cover;
 }
