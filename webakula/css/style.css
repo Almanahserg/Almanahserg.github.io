@@ -5,7 +5,7 @@ body {
 }
 
 .header {
-    background: url('../img/banner1.png') no-repeat center/100%;
+    background: url('../img/banner1.png') no-repeat;
 }
 
 table {
