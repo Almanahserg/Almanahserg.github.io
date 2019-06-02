@@ -6,7 +6,8 @@ body {
 
 .header {
     background-image: url('../img/banner1.png');
-    background-size: 100% auto;
+    background-position: center;
+    background-size: cover;
     height: 100vh;
 }
 
