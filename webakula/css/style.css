@@ -5,7 +5,8 @@ body {
 }
 
 .header {
-    background: url('../img/banner1.png') no-repeat;
+    background: url('../img/banner1.png') no-repeat 50% 50%;
+    min-height: 100vh;
 }
 
 table {
