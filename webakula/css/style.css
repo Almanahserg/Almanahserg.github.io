@@ -9,6 +9,7 @@ body {
     background-position: center;
     background-size: cover;
     height: 100vh;
+    background-repeat: no-repeat;
 }
 
 table {
