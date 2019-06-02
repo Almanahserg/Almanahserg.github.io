@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-image: url('../img/banner1.png');
+    background-size: 100% auto;
+    height: 100vh;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    min-width: 320px;
+    width: 70%;
+}
+
+
+.info {
+    color: rgba(243, 243, 243, 0.8);
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.info span {
+    padding-right: 25px;
+}
+
+.info img {
+    padding-right: 3px;
+    padding-left: 22px;
+}
+
+.menu {
+    text-align: right;
+    border-radius: 10px;
+    background-color: #fbd341;
+    height: 42px;
+    width: 760px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    float: right;
+}
+
+.menu span {
+    font-weight: bold;
+    padding: 26px;
+}
+
+.menu img {
+    padding: 0 3px;
+}
+
+.sub_menu {
+    position: absolute;
+    background-color: rgba(51, 151, 246, 0.8);
+    transform: translate(-25px, 12px);
+    text-align: left;
+    color: white;
+    font-size: 14px;
+    box-shadow: -4px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.sub_menu ul{
+    padding: 0;
+}
+
+.sub_menu li{
+    list-style-type: none;
+    font-weight: normal;
+    padding: 12px 30px;
+}
+
+.offer {
+    margin-top: 30vh;
+    width: 70%;
+    height: 220px;
+    background: linear-gradient(to left, rgba(0, 76, 132, 0.3), rgba(0, 76, 132, 0.6));
+    padding-left: 15%;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.yellow_button {
+    background-color: #fbd341;
+    border-radius: 10px;
+    color: black;
+    padding: 15px 30px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.dots {
+    padding-left: 15%;
+    padding-top: 10%;
+}
+
+.big-dot {
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    float: left;
+    margin: 10px;
+}
+
+.white-opacity {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.yellow {
+    background-color: #fbd341;
+}
