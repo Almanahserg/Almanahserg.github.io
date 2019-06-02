@@ -66,11 +66,17 @@ table {
     box-shadow: -4px 4px 15px rgba(0, 0, 0, 0.3);
 }
 
-.sub_menu ul{
+@media all and (max-width: 959px) {
+    .sub_menu {
+        visibility: hidden;
+    }
+}
+
+.sub_menu ul {
     padding: 0;
 }
 
-.sub_menu li{
+.sub_menu li {
     list-style-type: none;
     font-weight: normal;
     padding: 12px 30px;
