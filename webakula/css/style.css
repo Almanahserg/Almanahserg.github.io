@@ -5,11 +5,9 @@ body {
 }
 
 .header {
-    background-image: url('../img/banner1.png');
-    background-size: 100%;
-
+    background: url('../img/banner1.png') no-repeat;
+    background-position: center;
     height: 100vh;
-    background-repeat: no-repeat;
 }
 
 table {
@@ -122,4 +120,10 @@ table {
 
 .yellow {
     background-color: #fbd341;
+}
+
+footer {
+    flex: 0 0 auto;
+    height: 200px;
+    background-color: rgba(0, 0, 255, 0.3);
 }
