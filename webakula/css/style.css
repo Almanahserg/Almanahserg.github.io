@@ -5,17 +5,28 @@ body {
 }
 
 .header {
-    background: url('../img/banner1.png') no-repeat 50% 50%;
-    min-height: 100vh;
+    background-image: url('../img/banner1.png');
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: 100% 30%;
+    max-height: 730px;
 }
 
-table {
-    border-collapse: collapse;
+.navigator {
     margin: auto;
-    min-width: 320px;
-    width: 70%;
+    max-width: 60%;
+    min-width: 30%;
+    padding-top: 10px;
+    border: 1px solid yellow;
 }
 
+.logo {
+    float: left;
+}
+
+.info-menu {
+    float: right;
+}
 
 .info {
     color: rgba(243, 243, 243, 0.8);
@@ -66,11 +77,11 @@ table {
     box-shadow: -4px 4px 15px rgba(0, 0, 0, 0.3);
 }
 
-@media all and (max-width: 959px) {
-    .sub_menu {
-        visibility: hidden;
-    }
-}
+/*@media only screen and (max-device-width: 500px) {*/
+/*.sub_menu {*/
+/*visibility: hidden;*/
+/*}*/
+/*}*/
 
 .sub_menu ul {
     padding: 0;
@@ -79,15 +90,15 @@ table {
 .sub_menu li {
     list-style-type: none;
     font-weight: normal;
-    padding: 12px 30px;
+    padding: 9px 30px;
 }
 
 .offer {
-    margin-top: 30vh;
+    margin-top: 340px;
     width: 70%;
     height: 220px;
     background: linear-gradient(to left, rgba(0, 76, 132, 0.3), rgba(0, 76, 132, 0.6));
-    padding-left: 15%;
+    padding-left: 20%;
     color: white;
     font-size: 30px;
     font-weight: bold;
@@ -107,16 +118,15 @@ table {
 }
 
 .dots {
-    padding-left: 15%;
-    padding-top: 10%;
+    padding-left: 20%;
 }
 
 .big-dot {
-    height: 20px;
-    width: 20px;
-    border-radius: 10px;
-    float: left;
-    margin: 10px;
+    height: 14px;
+    width: 14px;
+    border-radius: 7px;
+    margin: 120px 5px 20px;
+    display: inline-block;
 }
 
 .white-opacity {
@@ -131,4 +141,28 @@ footer {
     flex: 0 0 auto;
     height: 200px;
     background-color: rgba(0, 0, 255, 0.3);
+}
+
+.arrow {
+    transform: rotate(-90deg);
+    transition: 200ms;
+}
+
+.arrow:hover {
+    transform: rotate(0);
+}
+
+@media only screen and (max-device-width: 1800px) {
+    .logo {
+        margin: auto;
+        border: 1px solid red;
+    }
+
+    .info-menu {
+        float: none;
+    }
+
+    .navigator {
+        text-align: center;
+    }
 }
