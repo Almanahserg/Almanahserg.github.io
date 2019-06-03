@@ -17,15 +17,31 @@ body {
     max-width: 60%;
     min-width: 30%;
     padding-top: 10px;
-    border: 1px solid yellow;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.logo {
-    float: left;
-}
+/*.logo {*/
+/*display: inline;*/
+/*}*/
 
-.info-menu {
-    float: right;
+/*.info-menu {*/
+/*display: inline;*/
+/*}*/
+
+@media only screen and (max-device-width: 1800px) {
+    .logo {
+        margin: auto;
+    }
+
+    .info-menu {
+        float: none;
+    }
+
+    .navigator {
+        justify-content: space-around;
+    }
 }
 
 .info {
@@ -34,7 +50,6 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 15px 0;
 }
 
 .info span {
@@ -47,24 +62,31 @@ body {
 }
 
 .menu {
-    text-align: right;
     border-radius: 10px;
     background-color: #fbd341;
-    height: 42px;
+    min-height: 42px;
     width: 760px;
+    list-style-type: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     align-items: center;
-    float: right;
+    flex-wrap: wrap;
+    padding: 0;
 }
 
-.menu span {
+.menu li {
     font-weight: bold;
-    padding: 26px;
+    margin: 0 20px;
 }
 
-.menu img {
+.arrow {
     padding: 0 3px;
+    transform: rotate(-90deg);
+    transition: 200ms;
+}
+
+.arrow:hover {
+    transform: rotate(0);
 }
 
 .sub_menu {
@@ -85,16 +107,16 @@ body {
 
 .sub_menu ul {
     padding: 0;
+    list-style-type: none;
 }
 
 .sub_menu li {
-    list-style-type: none;
     font-weight: normal;
-    padding: 9px 30px;
+    padding: 9px 0;
 }
 
 .offer {
-    margin-top: 340px;
+    margin-top: 200px;
     width: 70%;
     height: 220px;
     background: linear-gradient(to left, rgba(0, 76, 132, 0.3), rgba(0, 76, 132, 0.6));
@@ -143,26 +165,5 @@ footer {
     background-color: rgba(0, 0, 255, 0.3);
 }
 
-.arrow {
-    transform: rotate(-90deg);
-    transition: 200ms;
-}
 
-.arrow:hover {
-    transform: rotate(0);
-}
 
-@media only screen and (max-device-width: 1800px) {
-    .logo {
-        margin: auto;
-        border: 1px solid red;
-    }
-
-    .info-menu {
-        float: none;
-    }
-
-    .navigator {
-        text-align: center;
-    }
-}
