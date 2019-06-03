@@ -7,7 +7,7 @@ body {
 .header {
     background-image: url('../img/banner1.png');
     background-repeat: no-repeat;
-    background-size: 120%;
+    background-size: cover;
     /*background-position: 10%;*/
     /*max-height: 730px;*/
 }
