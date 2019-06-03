@@ -8,8 +8,8 @@ body {
     background-image: url('../img/banner1.png');
     background-repeat: no-repeat;
     background-size: 120%;
-    background-position: 100% 30%;
-    max-height: 730px;
+    /*background-position: 10%;*/
+    /*max-height: 730px;*/
 }
 
 .navigator {
@@ -34,6 +34,7 @@ body {
     .navigator {
         justify-content: space-around;
     }
+
 }
 
 .info {
