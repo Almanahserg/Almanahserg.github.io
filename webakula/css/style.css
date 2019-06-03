@@ -10,7 +10,6 @@ body {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    /*max-height: 730px;*/
 }
 
 .navigator {
@@ -151,10 +150,66 @@ body {
     background-color: #fbd341;
 }
 
+.slider-offers {
+    font-weight: bold;
+    padding-left: 20%;
+    font-size: 20px;
+    margin-top: 70px;
+}
+
+.slider-offers span {
+    margin-right: 25px;
+}
+
+.item {
+    wigth: 520px;
+    height: 200px;
+    background-color: #f8f7f7;
+    border-radius: 7px;
+    padding: 12px;
+    font-size: 14px;
+    color: #3a3a3a;
+}
+
+.item > img {
+    width: 176px;
+    height: 176px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 15px;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
 footer {
     flex: 0 0 auto;
     height: 200px;
     background-color: rgba(0, 0, 255, 0.3);
+}
+
+hr {
+    border-top: 1px solid #d0cccd;
+}
+
+.cost {
+    font-size: 25px;
+}
+
+.sup-text {
+    position: absolute;
+    transform: translate(10px, -10px);
+    font-size: 11px;
+}
+
+.yellow-circle-arrow {
+    width: 20px;
+    border-radius: 50%;
+    background-color: #fbd341;
+    padding: 15px 10px;
+    transform: rotate(-90deg);
+    float: right;
 }
 
 
