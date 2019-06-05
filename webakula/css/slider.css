@@ -1,7 +1,7 @@
 .slider {
     min-width: 360px;
     max-width: 90%;
-    margin: 100px auto;
+    margin: 0 auto 50px;
 }
 
 .slick-slide {
