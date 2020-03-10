@@ -1,0 +1,24 @@
+{
+    "users": [
+        {
+            "id": "1",
+            "name": "Jeff Bezos"
+        },
+        {
+            "id": "2",
+            "name": "Bill Gates"
+        },
+        {
+            "id": "3",
+            "name": "Bernard Arnault"
+        },
+        {
+            "id": "4",
+            "name": "Warren Buffet"
+        },
+        {
+            "id": "5",
+            "name": "Mark Zuckerberg"
+        }
+    ]
+}

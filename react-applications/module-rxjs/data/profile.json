@@ -1,6 +1,57 @@
 {
-    "profileID": "1",
-    "firstName": "Bill",
-    "lastName": "Gates",
-    "birthDate": "28.10.1955"
+    "1": {
+        "firstName": "Jeff",
+        "lastName": "Bezos",
+        "birthDate": "01.12.1964",
+        "imageUrl": "https://almanahserg.github.io/react-applications/module-rxjs/data/images/JeffBezos.jpg",
+        "permission": {
+            "firstField": "read",
+            "secondField": "read",
+            "textArea": ""
+        }
+    },
+    "2": {
+        "firstName": "Bill",
+        "lastName": "Gates",
+        "birthDate": "28.10.1955",
+        "imageUrl": "https://almanahserg.github.io/react-applications/module-rxjs/data/images/BillGates.jpg",
+        "permission": {
+            "firstField": "write",
+            "secondField": "read",
+            "textArea": "read"
+        }
+    },
+    "3": {
+        "firstName": "Bernard",
+        "lastName": "Arnault",
+        "birthDate": "05.03.1949",
+        "imageUrl": "https://almanahserg.github.io/react-applications/module-rxjs/data/images/BernardArnault.jpg",
+        "permission": {
+            "firstField": "read",
+            "secondField": "read",
+            "textArea": ""
+        }
+    },
+    "4": {
+        "firstName": "Warren",
+        "lastName": "Buffet",
+        "birthDate": "30.04.1930",
+        "imageUrl": "https://almanahserg.github.io/react-applications/module-rxjs/data/images/WarrenBuffet.jpg",
+        "permission": {
+            "firstField": "read",
+            "secondField": "read",
+            "textArea": ""
+        }
+    },
+    "5": {
+        "firstName": "Mark",
+        "lastName": "Zuckerberg",
+        "birthDate": "14.05.1984",
+        "imageUrl": "https://almanahserg.github.io/react-applications/module-rxjs/data/images/MarkZuckerberg.jpg",
+        "permission": {
+            "firstField": "write",
+            "secondField": "write",
+            "textArea": "write"
+        }
+    }
 }
