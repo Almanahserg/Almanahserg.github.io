@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-applications/module-rxjs/static/css/main.5f361e03.chunk.css",
+    "main.js": "/react-applications/module-rxjs/static/js/main.24c3452c.chunk.js",
+    "main.js.map": "/react-applications/module-rxjs/static/js/main.24c3452c.chunk.js.map",
+    "runtime-main.js": "/react-applications/module-rxjs/static/js/runtime-main.5bdf9744.js",
+    "runtime-main.js.map": "/react-applications/module-rxjs/static/js/runtime-main.5bdf9744.js.map",
+    "static/js/2.9b048942.chunk.js": "/react-applications/module-rxjs/static/js/2.9b048942.chunk.js",
+    "static/js/2.9b048942.chunk.js.map": "/react-applications/module-rxjs/static/js/2.9b048942.chunk.js.map",
+    "index.html": "/react-applications/module-rxjs/index.html",
+    "precache-manifest.1c1192541b312df4889017e9eeba910e.js": "/react-applications/module-rxjs/precache-manifest.1c1192541b312df4889017e9eeba910e.js",
+    "service-worker.js": "/react-applications/module-rxjs/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/react-applications/module-rxjs/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.9b048942.chunk.js.LICENSE.txt": "/react-applications/module-rxjs/static/js/2.9b048942.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/react-applications/module-rxjs/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5bdf9744.js",
+    "static/js/2.9b048942.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.24c3452c.chunk.js"
+  ]
+}
