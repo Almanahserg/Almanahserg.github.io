@@ -1,0 +1,47 @@
+<style>
+	p.inner > span {
+	color: blue;
+}
+
+	p span {
+	color: red;
+}
+
+	p + span {
+	color: lightgreen;
+}
+
+	.red {
+			border: 1px solid blue;
+			color: red;
+	}
+
+  .blue {
+			background: #61dafb;
+      color: blue;
+  }
+
+	.yellow {
+      color: yellow;
+  }
+</style>
+
+<p>
+	<span>text 1</span>
+</p>
+<p class="inner">
+	<span>text 2</span>
+	<span>text 2</span>
+	<span>text 2</span>
+</p>
+<p>
+	<span>text 3</span>
+	<span>text 3</span>
+	<span>text 3</span>
+</p>
+
+<span>text 4</span>
+<span>text 5</span>
+<span>text 6</span>
+
+<p class='blue yellow red'>some text</p>
